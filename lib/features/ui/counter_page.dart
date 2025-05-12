@@ -30,7 +30,7 @@ class _CounterPageState extends State<CounterPage> {
               appBar: AppBar(
                 title: Text('Counter App'),
                 centerTitle: true,
-                backgroundColor: Colors.blue.shade200,
+                backgroundColor: Colors.blue.shade300,
               ),
               body: Center(child: Text('Counter: ${successState.count}')),
               floatingActionButton: FloatingActionButton(
